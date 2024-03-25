@@ -1,0 +1,705 @@
+﻿2024-03-04 10:49:10> Program: Starting Squirrel Updater: --install .
+2024-03-04 10:49:10> Program: Starting install, writing to C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:49:10> Program: About to install to: C:\Users\User\AppData\Local\WhatsApp
+2024-03-04 10:49:10> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\.betaId'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+2024-03-04 10:49:10> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\RELEASES'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2024-03-04 10:49:10> CheckForUpdateImpl: Reading RELEASES file from C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:49:10> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+2024-03-04 10:49:10> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\WhatsApp\app-0.3.4941
+2024-03-04 10:49:12> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\User\AppData\Local\WhatsApp\WhatsApp.exe
+2024-03-04 10:49:13> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\WhatsApp\app-0.3.4941\WhatsApp.exe]
+2024-03-04 10:49:14> ApplyReleasesImpl: Starting fixPinnedExecutables
+2024-03-04 10:49:14> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2024-03-04 10:49:14> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2024-03-04 10:49:14> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2024-03-04 10:49:15> ApplyReleasesImpl: Fixing up tray icons
+2024-03-04 10:49:15> ApplyReleasesImpl: cleanDeadVersions: for version 0.3.4941
+2024-03-04 10:49:15> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-0.3.4941
+2024-03-04 10:56:08> Program: Starting Squirrel Updater: --install .
+2024-03-04 10:56:08> Program: Starting install, writing to C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:56:08> Program: About to install to: C:\Users\User\AppData\Local\WhatsApp
+2024-03-04 10:56:08> Program: Install path C:\Users\User\AppData\Local\WhatsApp already exists, burning it to the ground
+2024-03-04 10:56:08> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\.betaId'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+2024-03-04 10:56:08> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\RELEASES'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2024-03-04 10:56:08> CheckForUpdateImpl: Reading RELEASES file from C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:56:08> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+2024-03-04 10:56:09> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10
+2024-03-04 10:56:12> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\User\AppData\Local\WhatsApp\WhatsApp.exe
+2024-03-04 10:56:12> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10\WhatsApp.exe]
+2024-03-04 10:56:16> ApplyReleasesImpl: Starting fixPinnedExecutables
+2024-03-04 10:56:16> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2024-03-04 10:56:16> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2024-03-04 10:56:16> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2024-03-04 10:56:16> ApplyReleasesImpl: Fixing up tray icons
+2024-03-04 10:56:16> ApplyReleasesImpl: cleanDeadVersions: for version 2.2326.10
+2024-03-04 10:56:16> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2326.10
+2024-03-04 10:56:24> IEnableLogger: Failed to create uninstaller registry entry: System.IO.FileNotFoundException: Could not find file 'C:\Users\User\AppData\Local\WhatsApp\packages\WhatsApp-2.2326.10-full.nupkg'.
+File name: 'C:\Users\User\AppData\Local\WhatsApp\packages\WhatsApp-2.2326.10-full.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.get_Length()
+   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2024-03-04 10:56:24> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\User\AppData\Local\WhatsApp\packages\WhatsApp-2.2326.10-full.nupkg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.get_Length()
+   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.FileNotFoundException: Could not find file 'C:\Users\User\AppData\Local\WhatsApp\packages\WhatsApp-2.2326.10-full.nupkg'.
+File name: 'C:\Users\User\AppData\Local\WhatsApp\packages\WhatsApp-2.2326.10-full.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.get_Length()
+   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+
+.Utility.<DeleteDirectory>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10\WhatsApp.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+
+2024-03-04 10:56:19> Program: Starting Squirrel Updater: --install .
+2024-03-04 10:56:19> Program: Starting install, writing to C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:56:19> Program: About to install to: C:\Users\User\AppData\Local\WhatsApp
+2024-03-04 10:56:19> Program: Install path C:\Users\User\AppData\Local\WhatsApp already exists, burning it to the ground
+2024-03-04 10:56:19> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:20> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:20> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:20> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:20> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:21> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:21> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:21> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:21> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__32_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<FullInstall>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__32_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<FullInstall>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+
+2024-03-04 10:56:30> Program: Starting Squirrel Updater: --install .
+2024-03-04 10:56:30> Program: Starting install, writing to C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:56:30> Program: About to install to: C:\Users\User\AppData\Local\WhatsApp
+2024-03-04 10:56:30> Program: Install path C:\Users\User\AppData\Local\WhatsApp already exists, burning it to the ground
+2024-03-04 10:56:30> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\.betaId'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMod2024-03-04 10:56:30> Utility: DeleteDirectory: could not delete - C:\Users\User\AppData\Local\WhatsApp\packages: System.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+2024-03-04 10:56:30> Utility: DeleteDirectory: could not delete - C:\Users\User\AppData\Local\WhatsApp: System.IO.IOException: The directory is not empty.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+2024-03-04 10:56:30> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.Single2024-03-04 10:56:31> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10
+2024-03-04 10:56:34> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\User\AppData\Local\WhatsApp\WhatsApp.exe
+2024-03-04 10:56:35> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10\WhatsApp.exe]
+2024-03-04 10:56:35> ApplyReleasesImpl: Starting fixPinnedExecutables
+2024-03-04 10:56:35> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2024-03-04 10:56:35> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2024-03-04 10:56:35> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2024-03-04 10:56:35> ApplyReleasesImpl: Fixing up tray icons
+2024-03-04 10:56:35> ApplyReleasesImpl: cleanDeadVersions: for version 2.2326.10
+2024-03-04 10:56:35> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2326.10
+TimeSpan timeOut)
+2024-03-04 10:56:31> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:31> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:32> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:32> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:32> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:32> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-05B15F262665E0EDA0F07CBC6CFAE6FD28E6087E' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-04 10:56:33> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__32_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<FullInstall>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__32_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<FullInstall>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+
+2024-03-04 10:57:02> Program: Starting Squirrel Updater: --install .
+2024-03-04 10:57:02> Program: Starting install, writing to C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:57:02> Program: About to install to: C:\Users\User\AppData\Local\WhatsApp
+2024-03-04 10:57:02> Program: Install path C:\Users\User\AppData\Local\WhatsApp already exists, burning it to the ground
+2024-03-04 10:57:03> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\.betaId'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+2024-03-04 10:57:03> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\RELEASES'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2024-03-04 10:57:03> CheckForUpdateImpl: Reading RELEASES file from C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 10:57:03> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+2024-03-04 10:57:03> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10
+2024-03-04 10:57:07> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\User\AppData\Local\WhatsApp\WhatsApp.exe
+2024-03-04 10:57:08> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10\WhatsApp.exe]
+2024-03-04 10:57:08> ApplyReleasesImpl: Starting fixPinnedExecutables
+2024-03-04 10:57:08> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2024-03-04 10:57:08> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2024-03-04 10:57:08> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2024-03-04 10:57:08> ApplyReleasesImpl: Fixing up tray icons
+2024-03-04 10:57:08> ApplyReleasesImpl: cleanDeadVersions: for version 2.2326.10
+2024-03-04 10:57:08> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2326.10
+2024-03-04 11:03:07> Program: Starting Squirrel Updater: --install .
+2024-03-04 11:03:07> Program: Starting install, writing to C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 11:03:07> Program: About to install to: C:\Users\User\AppData\Local\WhatsApp
+2024-03-04 11:03:07> Program: Install path C:\Users\User\AppData\Local\WhatsApp already exists, burning it to the ground
+2024-03-04 11:03:07> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\.betaId'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+2024-03-04 11:03:07> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\WhatsApp\packages\RELEASES'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2024-03-04 11:03:07> CheckForUpdateImpl: Reading RELEASES file from C:\Users\User\AppData\Local\SquirrelTemp
+2024-03-04 11:03:07> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+2024-03-04 11:03:08> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10
+2024-03-04 11:03:10> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\User\AppData\Local\WhatsApp\WhatsApp.exe
+2024-03-04 11:03:11> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\WhatsApp\app-2.2326.10\WhatsApp.exe]
+2024-03-04 11:03:12> ApplyReleasesImpl: Starting fixPinnedExecutables
+2024-03-04 11:03:12> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2024-03-04 11:03:12> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2024-03-04 11:03:12> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2024-03-04 11:03:12> ApplyReleasesImpl: Fixing up tray icons
+2024-03-04 11:03:12> ApplyReleasesImpl: cleanDeadVersions: for version 2.2326.10
+2024-03-04 11:03:12> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2326.10
+2024-03-06 15:41:33> Program: Starting Squirrel Updater: --install . --exeName=MSTeamsSetup_c_l_.exe --bootstrapperMode
+2024-03-06 15:41:33> LogHost: Write failed.
+2024-03-06 15:41:33> LogHost: Message: Scenario.Status: success, scenario: 0f1bc8f3-8f3e-4c27-85d3-f5cc27346734, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: start, sequence: 0, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-5b4131ab-475f-4802-a8b9-56df160918ab, installSessionId: 7fbc02a84739fd64d92ab6e891275138e1ad74958d95b857896e0aa87d7f9128, delta: 8, scenarioDelta: 8, elapsed: 1709719893129, stepDelta: 0, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:41:33> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:41:33> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2024-03-06 15:41:33> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX64:https://aka.ms/maglev-x64
+2024-03-06 15:41:33> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX86:https://aka.ms/maglev-x86
+2024-03-06 15:41:33> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlARM64:https://aka.ms/maglev-arm64
+2024-03-06 15:41:33> Program: bootStrapperModeSettings: getInstallerEndpointUrl:https://teams.live.com/downloads/getinstaller
+2024-03-06 15:41:33> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMajorVersionNumber exists. Data - 10
+2024-03-06 15:41:33> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMinorVersionNumber exists. Data - 0
+2024-03-06 15:41:33> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22000
+2024-03-06 15:41:33> LogHost: Write failed.
+2024-03-06 15:41:33> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22000, Scenario.Status: success, scenario: 0f1bc8f3-8f3e-4c27-85d3-f5cc27346734, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_start, sequence: 1, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-5b4131ab-475f-4802-a8b9-56df160918ab, installSessionId: 7fbc02a84739fd64d92ab6e891275138e1ad74958d95b857896e0aa87d7f9128, delta: 238, scenarioDelta: 238, elapsed: 1709719893359, stepDelta: 230, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:41:33> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:41:33> FileDownloader: Downloading url: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22000
+2024-03-06 15:41:33> LogHost: Write failed.
+2024-03-06 15:41:33> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22000, sizeInBytes: 142, Scenario.Status: success, scenario: 0f1bc8f3-8f3e-4c27-85d3-f5cc27346734, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_end, sequence: 2, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-5b4131ab-475f-4802-a8b9-56df160918ab, installSessionId: 7fbc02a84739fd64d92ab6e891275138e1ad74958d95b857896e0aa87d7f9128, delta: 682, scenarioDelta: 682, elapsed: 1709719893803, stepDelta: 444, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:41:33> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:41:33> BootstrapperInstallManager: getinstaller endpoint returned installer path https://statics.teams.cdn.live.net/production-windows-x64/24033.1005.2701.7380/MicrosoftTeams-x64.msix
+2024-03-06 15:41:33> BootstrapperInstallManager: No decoded deep link is returned from get installer endpoint. Continue install without deep link
+2024-03-06 15:41:33> Program: Installing the Teams 2 client
+2024-03-06 15:41:35> Program: Detected existing Teams 2 client installation.
+2024-03-06 15:41:35> LogHost: Write failed.
+2024-03-06 15:41:35> LogHost: Message: intent: Life, arch: x64, platVersion: 10.0.22000, DownloadUrlRetry: 0, IsNextGenLink: True, InstallerUrlFromCloud: https://statics.teams.cdn.live.net/production-windows-x64/24033.1005.2701.7380/MicrosoftTeams-x64.msix, Scenario.Status: success, scenario: 0f1bc8f3-8f3e-4c27-85d3-f5cc27346734, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: stop, sequence: 3, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: dud;t2ib;t2is;, desktopSession: desktop-5b4131ab-475f-4802-a8b9-56df160918ab, installSessionId: 7fbc02a84739fd64d92ab6e891275138e1ad74958d95b857896e0aa87d7f9128, delta: 2680, scenarioDelta: 2680, elapsed: 1709719895801, stepDelta: 1998, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:41:35> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:45:08> Program: Starting Squirrel Updater: --install . --exeName=TeamsSetupx64_s_8DC3DC6C1AE7128-1-0_c_w_.exe --bootstrapperMode
+2024-03-06 15:45:08> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams not found
+2024-03-06 15:45:08> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-06 15:45:08> LogHost: Write failed.
+2024-03-06 15:45:08> LogHost: Message: Scenario.Status: success, scenario: 9881b0dc-ea32-498e-90ed-2bbe60ed5b03, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: start, sequence: 0, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , SignedPackages: enabled, desktopSession: desktop-14b06f90-59e9-4770-9c30-3118a486b5dd, installSessionId: 0102d62b1391c58cb7fd663aeff9f627e39a6db8049ea90d31d0485d52db7769, shortUrlId: 8DC3DC6C1AE7128-1-0, delta: 0, scenarioDelta: 0, elapsed: 1709720108809, stepDelta: 0, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.3.12.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:45:08> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:45:08> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2024-03-06 15:45:08> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22000
+2024-03-06 15:45:08> LogHost: Write failed.
+2024-03-06 15:45:08> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.microsoft.com/desktopclient/installer/windows/x64, Scenario.Status: success, scenario: 9881b0dc-ea32-498e-90ed-2bbe60ed5b03, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_start, sequence: 1, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , SignedPackages: enabled, desktopSession: desktop-14b06f90-59e9-4770-9c30-3118a486b5dd, installSessionId: 0102d62b1391c58cb7fd663aeff9f627e39a6db8049ea90d31d0485d52db7769, shortUrlId: 8DC3DC6C1AE7128-1-0, delta: 110, scenarioDelta: 110, elapsed: 1709720108919, stepDelta: 110, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.3.12.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:45:08> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:45:08> FileDownloader: Downloading url: https://teams.microsoft.com/desktopclient/installer/windows/x64
+2024-03-06 15:45:09> LogHost: Write failed.
+2024-03-06 15:45:09> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.microsoft.com/desktopclient/installer/windows/x64, sizeInBytes: 93, Scenario.Status: success, scenario: 9881b0dc-ea32-498e-90ed-2bbe60ed5b03, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_end, sequence: 2, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22000.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , SignedPackages: enabled, desktopSession: desktop-14b06f90-59e9-4770-9c30-3118a486b5dd, installSessionId: 0102d62b1391c58cb7fd663aeff9f627e39a6db8049ea90d31d0485d52db7769, shortUrlId: 8DC3DC6C1AE7128-1-0, delta: 612, scenarioDelta: 612, elapsed: 1709720109421, stepDelta: 502, DeviceInfo.ComputerUuid: 3344433538325044465a5a5038324435, DeviceInfo.OfficeMachineId: c9f2962e09367542a6c4d621689f4821, InstallerVersion: 3.3.12.0, eventpdclevel: 1, userpdclevel: 0
+2024-03-06 15:45:09> LogHost: Stack trace: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Telemetry.AriaWrapper.LogToFile(String message)
+2024-03-06 15:45:09> Program: setup.json does not exist
+2024-03-06 15:45:09> Program: Running contextual installation logic
+2024-03-06 15:45:09> Program: ContextualInstaller returned: True. Using filename: TeamsSetupx64_s_8DC3DC6C1AE7128-1-0_c_w_.exe
+2024-03-06 15:45:09> UpdateManager: using rootAppDirectory: C:\Users\User\AppData\Local\Microsoft\Teams
+2024-03-06 15:45:09> Program: About to install to: C:\Users\User\AppData\Local\Microsoft\Teams
+2024-03-06 15:45:09> Program: Setup.json exist, copying over
+2024-03-06 15:45:09> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run does not have TeamsMachineInstaller
+2024-03-06 15:45:09> Program: CheckMsiAndTryAddInstallSource: Not MSI, no need to add HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\InstallSource
+2024-03-06 15:45:09> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could2024-03-10 22:42:28> Program: Starting Squirrel Updater: --install . --exeName=TeamsSetupx64_s_8DC412531A50460-1-0_c_w_.exe --bootstrapperMode
+2024-03-10 22:42:28> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams not found
+2024-03-10 22:42:28> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:42:28> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2024-03-10 22:42:28> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22000
+2024-03-10 22:42:28> FileDownloader: Downloading url: https://teams.microsoft.com/desktopclient/installer/windows/x64
+2024-03-10 22:42:28> Program: Config already exists. Deleting first.
+2024-03-10 22:42:29> Program: Running contextual installation logic
+2024-03-10 22:42:29> Program: Config already exists. Deleting first.
+2024-03-10 22:42:29> Program: ContextualInstaller returned: True. Using filename: TeamsSetupx64_s_8DC412531A50460-1-0_c_w_.exe
+2024-03-10 22:42:29> UpdateManager: using rootAppDirectory: C:\Users\User\AppData\Local\Microsoft\Teams
+2024-03-10 22:42:29> Program: About to install to: C:\Users\User\AppData\Local\Microsoft\Teams
+2024-03-10 22:42:29> Program: Install path C:\Users\User\AppData\Local\Microsoft\Teams already exists, burning it to the ground
+2024-03-10 22:42:29> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:42:30> Program: Setup.json exist, copying over
+2024-03-10 22:42:30> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run does not have TeamsMachineInstaller
+2024-03-10 22:42:30> Program: CheckMsiAndTryAddInstallSource: Not MSI, no need to add HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\InstallSource
+2024-03-10 22:42:30> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\Microsoft\Teams\packages\.betaId'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+2024-03-10 22:42:30> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\User\AppData\Local\Microsoft\Teams\packages\RELEASES'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__8.MoveNext()
+2024-03-10 22:42:30> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:42:30> CheckForUpdateImpl: Downloading RELEASES.exe file from https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.6058
+2024-03-10 22:42:30> FileDownloader: Downloading file: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.6058/RELEASES.exe
+2024-03-10 22:42:30> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:42:30> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:42:30> CheckForUpdateImpl: Manifest Raw Length: 129 Length: 126 Content: AC2CA91F2CA059BF653EA3757D3085A5B946F3D552E58F1C28EDC266273862B3
+2024-03-10 22:42:30> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+2024-03-10 22:42:30> FileDownloader: Downloading file: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.6058/Teams-1.7.00.6058-full.nupkg
+2024-03-10 22:45:54> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:45:56> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:45:56> ApplyReleasesImpl: No delta packages found. Applying current release package.
+2024-03-10 22:45:56> ApplyReleasesImpl: getting squirrel aware apps failed with exception Could not find a part of the path 'C:\Users\User\AppData\Local\Microsoft\Teams\current'.
+2024-03-10 22:45:56> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\Microsoft\Teams\current
+2024-03-10 22:45:59> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:45:59> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe]
+2024-03-10 22:46:02> ApplyReleasesImpl: About to RemoveOldShorcuts for Teams.exe, rootAppDir C:\Users\User\AppData\Local\Microsoft\Teams
+2024-03-10 22:46:02> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22000
+2024-03-10 22:46:02> ApplyReleasesImpl: ### PurgeShortcutDescription: shortcutDescription=Microsoft Teams
+2024-03-10 22:46:02> ApplyReleasesImpl: ### PurgeShortcutDescription: shortcutDescription=Microsoft Teams
+2024-03-10 22:46:02> ApplyReleasesImpl: ### TryToRemoveShortcutIfPresent: exist1=False, deleted=False, exist2=False, file="C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Corporation\Microsoft Teams.lnk"
+2024-03-10 22:46:02> ApplyReleasesImpl: ### TryToRemoveShortcutIfPresent: exist1=False, deleted=False, exist2=False, file="C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Corporation\Microsoft Teams classic (work or school).lnk"
+2024-03-10 22:46:02> ApplyReleasesImpl: ### TryToRemoveShortcutIfPresent: exist1=False, deleted=False, exist2=False, file="C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Corporation\Microsoft Teams (work or school).lnk"
+2024-03-10 22:46:02> ApplyReleasesImpl: ### PurgeShortcutDescription: shortcutDescription=Microsoft Teams
+2024-03-10 22:46:02> ApplyReleasesImpl: ### PurgeShortcutDescription: shortcutDescription=Microsoft Teams
+2024-03-10 22:46:02> ApplyReleasesImpl: ### TryToRemoveShortcutIfPresent: exist1=False, deleted=False, exist2=False, file="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Corporation\Microsoft Teams.lnk"
+2024-03-10 22:46:02> ApplyReleasesImpl: ### TryToRemoveShortcutIfPresent: exist1=False, deleted=False, exist2=False, file="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Corporation\Microsoft Teams classic (work or school).lnk"
+2024-03-10 22:46:02> ApplyReleasesImpl: ### TryToRemoveShortcutIfPresent: exist1=False, deleted=False, exist2=False, file="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Corporation\Microsoft Teams (work or school).lnk"
+2024-03-10 22:46:02> RegistryService: RegKeyExists: HKEY_CURRENT_USER\Software\Policies\Microsoft\Cloud\Office\16.0\Teams does not exist
+2024-03-10 22:46:02> ApplyReleasesImpl: Registry value Software\Policies\Microsoft\Cloud\Office\16.0\Teams\PreventFirstLaunchAfterInstall does not exist
+2024-03-10 22:46:02> RegistryService: RegKeyExists: HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\16.0\Teams does not exist
+2024-03-10 22:46:02> ApplyReleasesImpl: Registry value Software\Policies\Microsoft\Office\16.0\Teams\PreventFirstLaunchAfterInstall does not exist
+2024-03-10 22:46:02> RegistryService: RegKeyExists: HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Teams does not exist
+2024-03-10 22:46:02> ApplyReleasesImpl: Registry value Software\Microsoft\Office\16.0\Teams\PreventFirstLaunchAfterInstall does not exist
+2024-03-10 22:46:02> ApplyReleasesImpl: Registry flags are not set: proceed with default value NotConfigured
+2024-03-10 22:46:02> ApplyReleasesImpl: Starting fixPinnedExecutables
+2024-03-10 22:46:02> ApplyReleasesImpl: Examining Pin: Android Studio.lnk
+2024-03-10 22:46:02> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2024-03-10 22:46:02> ApplyReleasesImpl: Examining Pin: GitHub Desktop.lnk
+2024-03-10 22:46:02> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2024-03-10 22:46:02> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2024-03-10 22:46:02> ApplyReleasesImpl: Examining Pin: Visual Studio Code.lnk
+2024-03-10 22:46:02> ApplyReleasesImpl: Fixing up tray icons
+2024-03-10 22:46:02> MeetingAddinInstaller: System.ArgumentException: Cannot delete a subkey tree because the subkey does not exist.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   at Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2024-03-10 22:46:02> MeetingAddinInstaller: StagedAppDirectory does not exist. Using Current
+2024-03-10 22:46:02> MeetingAddinInstaller: There is no version.txt. Falling back to getting version from folder name
+2024-03-10 22:46:02> MeetingAddinInstaller: Version: 1.0.24022.3; addinPackageDirectory: 1.0.24022.3
+2024-03-10 22:46:02> MeetingAddinInstaller: .dead exists: False
+2024-03-10 22:46:02> MeetingAddinInstaller: path to .dead: C:\Users\User\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.24022.3\.dead
+2024-03-10 22:46:02> MeetingAddinInstaller: before cleanup unused versions
+2024-03-10 22:46:02> MeetingAddinInstaller: Addin directory exists. Copy was successful
+2024-03-10 22:46:02> MeetingAddinInstaller: Version 1.0.24022.3 of the meeting add-in is now installed
+2024-03-10 22:46:02> PresenceAddinInstaller: Installing Teams Presence addin for Outlook...
+2024-03-10 22:46:02> PresenceAddinInstaller: Copying C:\Users\User\AppData\Local\Microsoft\Teams\current\resources\assets\tlb\Uc.tlb to C:\Users\User\AppData\Local\Microsoft\TeamsPresenceAddin
+2024-03-10 22:46:02> PresenceAddinInstaller: Copying C:\Users\User\AppData\Local\Microsoft\Teams\current\resources\assets\tlb\Uc.win32.tlb to C:\Users\User\AppData\Local\Microsoft\TeamsPresenceAddin
+2024-03-10 22:46:02> PresenceAddinInstaller: check if UC TypeLib points to current\resources\assets\tlb\Uc.tlb
+2024-03-10 22:46:02> PresenceAddinInstaller: Registering UC Typelib WIN32 under HKCU...
+2024-03-10 22:46:03> PresenceAddinInstaller: UC Typelib WIN32 successfully registered to C:\Users\User\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.win32.tlb under HKCU!
+2024-03-10 22:46:03> PresenceAddinInstaller: UC Typelib WIN64 is registered under HKLM and file exists. Registration not needed!
+2024-03-10 22:46:03> PresenceAddinInstaller: IM Provider registry key already exists!
+2024-03-10 22:46:03> ApplyReleasesImpl: cleanDeadVersions: for original version of  and current version of 1.7.00.6058
+2024-03-10 22:46:03> ApplyReleasesImpl: cleanDeadVersions: exclude current folder stage
+2024-03-10 22:46:04> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams not found
+810944D637033ED594E3FA23A20FB' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-10 22:42:37> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-10 22:42:37> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-10 22:42:38> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-10 22:42:38> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB: System.IO.IOException: The process cannot access the file 'C:\Users\User\AppData\Local\Temp\.squirrel-lock-BCA40E07CF6810944D637033ED594E3FA23A20FB' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2024-03-10 22:42:38> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<>c__DisplayClass40_0.<acquireUpdateLock>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<FullInstall>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__12.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<>c__DisplayClass40_0.<acquireUpdateLock>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<FullInstall>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.Update.Program.<Install>d__12.MoveNext()<---
+
+2024-03-10 22:43:35> Program: Starting Squirrel Updater: --install . --exeName=TeamsSetupx64_s_8DC412531A50460-1-0_c_w_.exe --bootstrapperMode
+2024-03-10 22:43:35> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams not found
+2024-03-10 22:43:35> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-03-10 22:43:35> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: File endpoint.json not found. Bailing install.
+   at Squirrel.Update.Program.GetBootStrapperModeSettingsFromJson(String sourceDirectory, IPerfScenario scenario)
+   at Squirrel.Update.Program.<Install>d__12.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: File endpoint.json not found. Bailing install.
+   at Squirrel.Update.Program.GetBootStrapperModeSettingsFromJson(String sourceDirectory, IPerfScenario scenario)
+   at Squirrel.Update.Program.<Install>d__12.MoveNext()<---
+
