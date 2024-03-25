@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #4CAF50;
+            padding: 8px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+
+        /* Animation */
+        .animated {
+            animation: scale 0.5s infinite alternate;
+        }
+
+        @keyframes scale {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Colorful Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Chalani Jayakodi. I'm a student at the University of Moratuwa. I'm passionate about learning programming languages like Java, Python, JavaScript, React, and Flutter.</p>
+            <img src="image1.jpeg" alt="Image 1">
+            <img src="image2.jpeg" alt="Image 2">
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Python Project</td>
+                    <td>A simple web scraper built using Python's BeautifulSoup library. It extracts data from a website and stores it in a CSV file for analysis.</td>
+                </tr>
+                <tr>
+                    <td>Java Project</td>
+                    <td> simple web scraper built using Python's BeautifulSoup library. It extracts data from a website and stores it in a CSV file for analysis.</td>
+                </tr>
+            </table>
+            <img src="image3.jpeg" alt="Image 3">
+           
+            <img src="image5.jpeg" alt="Image 5">
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me via email at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+            <button onclick="toggleAnimation()">Click Me</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Colorful Portfolio</p>
+    </footer>
+
+    <script>
+        // JavaScript for My Portfolio
+
+        function toggleAnimation() {
+            var contactSection = document.getElementById('contact');
+            contactSection.classList.toggle('animated');
+        }
+    </script>
+</body>
+</html>
